@@ -3,7 +3,7 @@
 }
 
 html{
-    background-color: gray;
+    background-color: black;
 }
 
 body{
@@ -18,15 +18,15 @@ body{
 
 header{
     padding:0px 50px;
-    background-color: bisque;
+    background-color: #663300;
     border: solid;
-    border-color: bisque;
+    border-color: #663300;
     position: sticky;
     top: 0px;
 }
 
 main{
-    background-color: whitesmoke;
+    background-color: #333333;
     min-height: 1000px;
 }
 
@@ -38,6 +38,13 @@ nav {
     position:relative;
     left: 150px;
 }
+a:link {
+    color:bisque;
+}
+
+a:visited{
+    color: #330000
+}
 
 li.inline{
     display: inline;
@@ -46,6 +53,6 @@ li.inline{
 footer {
     border:solid;
     height: 75px;
-    background-color: burlywood;
-    border-color: burlywood;
+    background-color: #CC6600;
+    border-color: #CC6600;
 }
