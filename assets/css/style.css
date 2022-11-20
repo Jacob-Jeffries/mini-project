@@ -13,24 +13,24 @@ header{
     border: solid;
 }
 
-body{
+main{
     background-color: bisque;
+    min-height: 1000px;
 }
 
 h1 {
     display: block;
-    font-size: 4em;
 }
 
 #nav {
-    padding-right: 37px;
-    position:fixed;
-    right: 50px;
-    top: 20px;
-    font-size: 1.5em;
+    position:relative;
+    left: 900px;
 }
 
 li.inline{
     display: inline;
 }
 
+footer {
+    border:solid;
+}
