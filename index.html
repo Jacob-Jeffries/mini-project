@@ -38,10 +38,29 @@
       </section>
 
       <section class="card" id="form">
-      <h4>Submit your contact information:</h4>
-      <ul>
-        <li></li>
-      </ul>
+        <h4>Submit your contact information:</h4>
+        <form action="./action.js">
+          <table>
+            <tr>
+              <td><label for="fname">First Name: </label></td>
+              <td><input type="text" id="fname" name="fname" value="First Name"><br/></td>
+            </tr>
+            
+            <tr>
+              <td><label for="lname">Last Name: </label></td>
+              <td><input type="text" id="lname" name="lname" value="Last Name"><br/></td>
+            </tr>
+
+            <tr>
+              <td><label for="email">Email: </label></td>
+              <td><input type="text" id="email" name="email" value="email@email.com"><br/></td>
+            </tr>
+
+          </table>
+          <br/>
+          <br/>
+          <input type="submit" value="Submit">
+        </form>
       </section>
    
       <section class="card" id="03">
