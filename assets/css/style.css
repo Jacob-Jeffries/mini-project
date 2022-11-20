@@ -1,3 +1,49 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+html{
+    background-color: gray;
+}
+
+body{
+    width: 700px;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+header{
+    padding:0px 50px;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: whitesmoke;
+}
+
+main{
+    background-color: bisque;
+    min-height: 1000px;
+}
+
+h1 {
+    display: block;
+}
+
+nav {
+    position:relative;
+    left: 150px;
+}
+
+li.inline{
+    display: inline;
+}
+
+footer {
+    border:solid;
+    height: 75px;
+    background-color: burlywood;
+    border-color: burlywood;
+}
