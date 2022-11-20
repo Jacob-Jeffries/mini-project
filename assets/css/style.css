@@ -20,7 +20,7 @@ header{
     padding:0px 50px;
     background-color: #663300;
     border: solid;
-    border-color: #663300;
+    border-color: #CC6600;
     position: sticky;
     top: 0px;
 }
@@ -51,8 +51,8 @@ li.inline{
 }
 
 footer {
-    border:solid;
     height: 75px;
-    background-color: #CC6600;
+    background-color: #663300;
+    border: solid;
     border-color: #CC6600;
 }
