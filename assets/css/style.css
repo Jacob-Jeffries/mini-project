@@ -18,13 +18,15 @@ body{
 
 header{
     padding:0px 50px;
-    background-color: whitesmoke;
+    background-color: bisque;
     border: solid;
-    border-color: whitesmoke;
+    border-color: bisque;
+    position: sticky;
+    top: 0px;
 }
 
 main{
-    background-color: bisque;
+    background-color: whitesmoke;
     min-height: 1000px;
 }
 
