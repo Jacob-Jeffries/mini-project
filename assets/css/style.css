@@ -37,10 +37,6 @@ h1 {
     padding: 0 10px;
 }
 
-#form {
-    border: solid;
-}
-
 h4{
     color:white;
     text-align: center;
@@ -89,6 +85,15 @@ figcaption{
 #form {
     width: 400px;
     margin: 0 auto;
+}
+
+table{
+    margin: 0 auto;
+}
+
+#button{
+    width:65px;
+    float:right;
 }
 
 footer {
