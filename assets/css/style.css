@@ -54,6 +54,11 @@ a:visited{
     color: #330000
 }
 
+a:hover{
+    color: red;
+    font-weight: bolder;
+}
+
 ul{
     text-align: center;
     padding: 0;
