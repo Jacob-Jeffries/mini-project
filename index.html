@@ -40,28 +40,36 @@
       <section class="card" id="form">
         <h4>Submit your contact information:</h4>
         <form action="#">
-          <table>
-            <tr>
-              <td><label for="fname">First Name: </label></td>
-              <td><input type="text" id="fname" name="fname" value="First Name"><br/></td>
-            </tr>
+          <fieldset> <!--Creates groups that share the same purpose-->
+            <legend>Please enter your first name, last name, and email</legend>
+            <br/>
+            <table>
+              <tr>
+                <td><label for="fname">First Name: </label></td>
+                <td><input type="text" id="fname" name="fname" value="First Name"></td>
+              </tr>
             
-            <tr>
-              <td><label for="lname">Last Name: </label></td>
-              <td><input type="text" id="lname" name="lname" value="Last Name"><br/></td>
-            </tr>
+              <tr>
+                <td><label for="lname">Last Name: </label></td>
+                <td><input type="text" id="lname" name="lname" value="Last Name"></td>
+              </tr>
 
-            <tr>
-              <td><label for="email">Email: </label></td>
-              <td><input type="text" id="email" name="email" value="email@email.com"><br/></td>
-            </tr>
+              <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="text" id="email" name="email" value="email@email.com"></td>
+              </tr>
 
-          </table>
-          <br/>
-          <br/>
-          <section id="button">
-            <input type="submit" value="Submit">
-          </section>
+            </table>
+            
+            <br/>
+            <br/>
+            
+            <section id="button">
+              <input type="submit" value="Submit">
+            </section>
+
+          </fieldset>
+
         </form>
       </section>
    
