@@ -93,6 +93,10 @@ figcaption{
     color: whitesmoke;
 }
 
+legend{
+    text-align: center;
+}
+
 table{
     margin: 0 auto;
 }
